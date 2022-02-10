@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.container{
+    width: 600px;
+    margin: auto;
+    background-color:#fff;
+    margin-top: 200px;
+    
+}
+.tab{
+    display: flex;
+}
+.tab-item{
+    flex: 1;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.tab-line{
+    width: 100px;
+    height: 8px;
+    left: 0;
+    background-color: #000;
+}
+
+.box{
+    
+}
+
+.box-item{
+    padding: 20px 20px;
+}

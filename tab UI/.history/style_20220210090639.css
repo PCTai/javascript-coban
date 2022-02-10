@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+}
+.container{
+    width: 600px;
+    margin: auto;
+    background-color:#fff;
+    margin-top: 200px;
+    
+}
+.tab{
+    display: flex;
+}
+.tab-item{
+    flex: 1;
+    text-align: center;
+    padding: 20px 0;
+    opacity: 70%;
+    font-weight: 600\;
+}
+.tab-line{
+    width: 100px;
+    height: 8px;
+    left: 0;
+    background-color: #000;
+    transition: linear 0.3s;
+    border-radius: 5px;
+}
+.tab .active{
+    opacity: 100%;
+}
+.box .active{
+    display: block;
+}
+.box{
+    background-color: #999;
+}
+
+.box-item{
+    padding: 20px 20px;
+    display: none;
+}
